@@ -1,0 +1,217 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/*______________ Containers Section ______________ */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/*______________ Sections ______________ */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/*______________ Headings ______________ */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 0;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/*______________ Title Section ______________ */
+
+#title .container-fluid {
+  padding: 3% 15% 12%;
+  text-align: left;
+}
+
+/* Download Buttons */
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* Tittle Image */
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.title-image-container {
+  position: relative;
+}
+
+/*______________ Features ______________ */
+/* Icons */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  /* font-size: 5rem; */
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Text */
+
+.features-p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+/*______________ Testimonials Section ______________*/
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 0 15%;
+}
+
+/*______________ Press Section ______________*/
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/*______________ Pricing Section ______________*/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-title {
+  margin: 0.5rem;
+}
+
+.price-text {
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.per-month {
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/*______________ Call to Action Section ______________*/
+
+
+
+/*______________ Footer Section ______________*/
+
+#footer {
+  color: #8f8f8f;
+}
+
+.p-footer {
+  margin: 0;
+}
+
+.footer-icon {
+  margin: 0 2% 2%;
+  color: #8f8f8f;
+}
+
+/*______________ Media Query ______________*/
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+    width: 60%;
+    position: static;
+  }
+}
